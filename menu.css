@@ -1,0 +1,54 @@
+div.scroll {
+    margin:2rem;
+    padding:1rem;
+    background-color: rgb(233, 241, 233);
+    width: 500px;
+    height: 30rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+h1{
+    text-align: center;
+    border-bottom: solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+  
+.item {
+    background: rgb(233, 241, 233);
+    flex-basis: 50%;
+    height: 30rem;
+    margin: 1rem;
+   margin-top: 2rem;
+}
+
+.menuItem {
+      background-color: rgb(212, 212, 230);
+      margin: 5%;
+      padding: 3rem;
+}
+
+
+.menuTitle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.restTitle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-title{
+    text-align: center;
+
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
